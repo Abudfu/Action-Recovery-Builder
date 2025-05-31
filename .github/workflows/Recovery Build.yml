@@ -89,9 +89,9 @@ jobs:
         sudo add-apt-repository universe
         sudo apt install git aria2 -y
         mkdir fox
-        cd fox/
+        cd fox
         git clone https://gitlab.com/OrangeFox/misc/scripts fox
-        cd fox/scripts
+        cd scripts
         sudo bash setup/android_build_env.sh
     
     - name: Check Build Tree
